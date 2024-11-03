@@ -1,0 +1,29 @@
+<lensdatabase version="1">
+
+    <mount>
+        <name>Panasonic LUMIX DMC-FZ80</name>
+        <compat>FZ80</compat>
+    </mount>
+
+    <lens>
+        <maker>Panasonic</maker>
+        <model>Lumix Dmc-FZ80</model>
+        <mount>compac</mount>
+        <cropfactor>5.6</cropfactor>
+        <focal value="3.6" />
+        <aperture min="2.8" max="8" />
+        <type>rectilinear</type>
+        <calibration>
+            <!-- WARNING: this calibration data is completely bogus :) -->
+            <distortion model="ptlens" focal="3.6" a="0.00659" b="-0.05798" c="-0.30419" />
+        </calibration>
+    </lens>
+
+    <camera>
+        <maker>Panasonic</maker>
+        <model>Lumix Dmc-FZ80/model>
+        <mount>compact</mount>
+        <cropfactor>5.6</cropfactor>
+    </camera>
+
+</lensdatabase>
